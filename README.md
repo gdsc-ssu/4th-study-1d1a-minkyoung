@@ -5,3 +5,4 @@
 | 11.05 | 1080: 행렬 | greedy | boj | SILVER.1 |
 | 11.06 | 1105: 팔 | 배열 | boj | SILVER.1 |
 |  |  | ||  |
+| 11.08 | 1011: Fly me to the Alpha Centauri | Math | boj | GOLD.5 |
