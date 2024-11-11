@@ -8,3 +8,4 @@
 | 11.08 | 1011: Fly me to the Alpha Centauri | Math | boj | GOLD.5 |
 | 11.09 | 1013: Contact | Math | boj | GOLD.5 |
 | 11.10 | 1025: 제곱 수 찾기 | Math | boj | GOLD.5 |
+| 11.11 | 1024: 언더프라임 | 배열 | boj | SILVER.1 |
