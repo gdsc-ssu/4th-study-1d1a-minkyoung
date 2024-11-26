@@ -23,3 +23,4 @@
 | 11.23 | 1654: 랜선자르기 | DFS | boj | SILVER.2 |
 | 11.22 | 1189: 컴백홈 | DFS | boj | SILVER.1 |
 | 11.24 | 1262: 알파벳 다이아몬드 | 연산 | boj | SILVER.1 |
+| 11.25 | 1276: FLATFORME | 배열 | boj | SILVER.1 |
