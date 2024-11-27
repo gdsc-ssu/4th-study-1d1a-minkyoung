@@ -1,15 +1,62 @@
-#include <iostream>
+#include<iostream>
+#include<vector>
 using namespace std;
 
+void dfs(vector<int> tree[], int node, bool leaf[]) {
+
+	for (int i = 0; i < tree[node].size(); i++) {
+		int num = tree[node][i];
+		dfs(tree, num, leaf);
+	}
+
+	tree[node].clear();
+	leaf[node] = true;
+}
 int main() {
 
-    int N; // 노드의 개수
-    cin >> N;
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+	cout.tie(NULL);
 
-    int node[N];
-    for (int i=0; i<=N; i++) {
-        cin >> node[i];
-        cout << node[i];
-    }
+	int N;  // 노드의 개수 
+	cin >> N;
 
+	vector<int> tree[50];
+	bool leaf[50] = {false}; // false로 초기화, true로 바뀌는 것만 세서 결과 출력
+    
+	for (int i = 0; i < N; i++) {
+		int p;
+		cin >> p;
+		if (p == -1) continue;
+		else {
+			tree[p].push_back(i);
+		}
+	}
+
+	int node;
+	cin >> node;
+
+	dfs(tree, node, leaf);
+
+	bool br=false;
+	for (int i = 0; i < N; i++) {
+		for (auto it = tree[i].begin(); it != tree[i].end(); it++) {
+			if (*it==node) {
+				tree[i].erase(it);
+				br = true;
+				break;
+			}
+		}
+		if (br) break;
+	}
+
+	int answer = 0;
+
+	for (int i = 0; i < N; i++) {
+		if (!leaf[i]&&tree[i].size() == 0) answer++;
+	}
+
+	cout << answer;
+    
+    return 0;
 }
