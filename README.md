@@ -26,3 +26,4 @@
 | 11.25 | 1276: FLATFORME | 배열 | boj | SILVER.1 |
 | 11.26 | 1068: 트리 | DFS | boj | GOLD.5 |
 | 11.27 | 1092: 배 | greedy | boj | GOLD.5 |
+| 11.28 | 1000: A+B | 연산 | boj | BRONZE.5 |
