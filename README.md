@@ -25,3 +25,4 @@
 | 11.24 | 1262: 알파벳 다이아몬드 | 연산 | boj | SILVER.1 |
 | 11.25 | 1276: FLATFORME | 배열 | boj | SILVER.1 |
 | 11.26 | 1068: 트리 | DFS | boj | GOLD.5 |
+| 11.27 | 1092: 배 | greedy | boj | GOLD.5 |
