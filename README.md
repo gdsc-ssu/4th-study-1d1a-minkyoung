@@ -31,3 +31,4 @@
 | 11.30 | 1195: 킥다운 | 배열 | boj | SILVER.1 |
 | 12.01 | 1101: A-B | 연산 | boj | BRONZE.5 |
 | 12.02 | 1138: 한 줄로 서기 | greedy | boj | SILVER.2 |
+| 12.03 | 1463: 1로 만들기 | DP | boj | SILVER.3 |
